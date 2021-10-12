@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="container">
+        
+        <h1>Percentage Calculator</h1>
+
+        <table id="box">
+
+            <tr class="total mn">
+                <td>
+                    <label for="t">Total Marks: </label>
+                </td>
+                <td>
+                    <input type="number" id="t" class="in">
+                </td>
+            </tr>
+
+            <tr class="obtained mn">
+                <td>
+                <label for="o">Obtained Marks: </label>
+                </td>
+
+                <td>
+                <input type="number" id="o" class="in">
+                </td>
+            </tr>
+
+            <tr class="mn" id="butnrow">
+                <td id="btn1col">
+                    
+                </td>
+                <td>
+                <button id="buttonsubmit" type="submit" onclick="percentagecalculator()" > Submit </button>
+                </td>
+            </tr>
+
+            <tr id="result1">
+
+            </tr>
+
+            <tr id="result2">
+
+            </tr>
+
+
+
+        </table>
+
+        <script src="app.js"></script>
+
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,48 @@
+body{
+    margin: auto;
+    font-family: sans-serif;
+    background-color: rgb(243, 243, 243);
+}
+h1{
+    text-align: center;
+}
+
+#box{
+    border: 1px solid grey;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    margin: auto;
+    margin-top: 50px;
+    font-size: larger;
+}
+.in{
+    padding: 10px 30px;
+}
+.mn:nth-child(3){
+
+    text-align: center;
+}
+
+#buttonsubmit{
+    padding: 12px 15px;
+    background-color: royalblue;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.25s;
+}
+#buttonsubmit:hover{
+    background-color: rgb(46, 91, 224);
+}
+#buttonsubmit:disabled{
+    background-color: grey;
+}
+
+#buttonreload{
+    padding: 12px 15px;
+    background-color: rgb(214, 42, 42);
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.25s;
+}
